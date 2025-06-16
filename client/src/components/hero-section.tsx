@@ -17,7 +17,7 @@ export function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-slide-up">
             <div className="text-sm font-mono text-neon-cyan mb-4 animate-fade-in">
-              <span className="animate-glow">></span> Full Stack Engineer
+              <span className="animate-glow">{'>'}</span> Full Stack Engineer
             </div>
             <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
               <span className="block">Building</span>
