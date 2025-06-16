@@ -1,8 +1,8 @@
-# Personal Portfolio Website
+# AI-Powered Futuristic Portfolio Website
 
 ## Overview
 
-This project is a modern, interactive personal portfolio website for Subham Sahoo, a Full Stack Engineer. The application showcases professional experience, skills, and projects through an immersive web experience with advanced visual effects, animations, and interactive elements.
+This project is a cutting-edge, cyberpunk-inspired portfolio website for Subham Sahoo, an AI Engineer and Data Scientist. The application showcases expertise in machine learning, deep learning, computer vision, and NLP through an immersive, futuristic web experience with advanced neural network visualizations, AI assistant integration, and dynamic data stream effects.
 
 ## System Architecture
 

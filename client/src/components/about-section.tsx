@@ -4,27 +4,65 @@ export function AboutSection() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-6xl font-bold mb-4">
-            <span className="text-neon-cyan animate-glow">About</span> Me
+            <span className="text-neon-cyan animate-glow">Neural</span> Profile
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-neon-cyan to-neon-purple mx-auto" />
+          <div className="w-24 h-1 bg-gradient-to-r from-neon-cyan to-neon-purple mx-auto mb-4" />
+          <p className="text-gray-300 max-w-2xl mx-auto">
+            Bridging the realms of software engineering and artificial intelligence to create intelligent, scalable solutions
+          </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-6">
             <div className="glass-effect rounded-2xl p-8 neon-border hover:scale-105 transition-transform duration-500">
               <h3 className="text-2xl font-bold text-neon-cyan mb-4">
-                <i className="fas fa-user-astronaut mr-3" />
-                Personal Overview
+                <i className="fas fa-brain mr-3" />
+                AI Engineer & Data Scientist
               </h3>
-              <p className="text-gray-300 leading-relaxed">
-                I'm a passionate Full Stack Engineer specializing in React Native, Next.js, and Node.js. 
-                Currently pursuing BCA with specialization in Cloud & Security at Amity University, 
-                I combine academic knowledge with real-world experience to create innovative solutions.
+              <p className="text-gray-300 leading-relaxed mb-4">
+                Dual expertise in software engineering and artificial intelligence, specializing in machine learning, 
+                deep learning, computer vision, and NLP. Currently pursuing BCA with Cloud & Security specialization 
+                at Amity University while building production-ready AI systems.
               </p>
+              <div className="grid grid-cols-2 gap-4 mt-4">
+                <div className="bg-neon-cyan bg-opacity-10 rounded-lg p-3">
+                  <i className="fas fa-robot text-neon-cyan mb-2 block text-xl" />
+                  <span className="text-sm text-gray-300">AI/ML Development</span>
+                </div>
+                <div className="bg-neon-purple bg-opacity-10 rounded-lg p-3">
+                  <i className="fas fa-chart-line text-neon-purple mb-2 block text-xl" />
+                  <span className="text-sm text-gray-300">Data Science</span>
+                </div>
+              </div>
             </div>
 
             <div className="glass-effect rounded-2xl p-8 neon-border hover:scale-105 transition-transform duration-500">
               <h3 className="text-2xl font-bold text-neon-emerald mb-4">
+                <i className="fas fa-code-branch mr-3" />
+                Core Specializations
+              </h3>
+              <div className="grid grid-cols-1 gap-3">
+                <div className="flex items-center space-x-3">
+                  <i className="fas fa-eye text-neon-cyan" />
+                  <span className="text-gray-300">Computer Vision & Object Detection</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <i className="fas fa-comments text-neon-purple" />
+                  <span className="text-gray-300">Natural Language Processing & LLMs</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <i className="fas fa-network-wired text-neon-emerald" />
+                  <span className="text-gray-300">Deep Learning & Neural Networks</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <i className="fas fa-database text-neon-magenta" />
+                  <span className="text-gray-300">Data Engineering & MLOps</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="glass-effect rounded-2xl p-8 neon-border hover:scale-105 transition-transform duration-500">
+              <h3 className="text-2xl font-bold text-neon-magenta mb-4">
                 <i className="fas fa-globe mr-3" />
                 Languages & Interests
               </h3>
@@ -39,10 +77,12 @@ export function AboutSection() {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-neon-cyan mb-2">Hobbies:</h4>
+                  <h4 className="font-semibold text-neon-cyan mb-2">Interests:</h4>
                   <ul className="text-gray-300 space-y-1">
                     <li>• Cricket</li>
                     <li>• Astrology</li>
+                    <li>• AI Research</li>
+                    <li>• Open Source</li>
                   </ul>
                 </div>
               </div>

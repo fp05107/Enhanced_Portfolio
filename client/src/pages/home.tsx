@@ -1,6 +1,8 @@
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
 import { BackgroundEffects } from '@/components/background-effects';
+import { DataStreamVisualizer } from '@/components/data-stream-visualizer';
 import { AudioController } from '@/components/audio-controller';
+import { AIAssistant } from '@/components/ai-assistant';
 import { Navigation } from '@/components/navigation';
 import { HeroSection } from '@/components/hero-section';
 import { AboutSection } from '@/components/about-section';
@@ -14,8 +16,10 @@ export default function Home() {
 
   return (
     <div className="bg-dark-bg text-white font-inter overflow-x-hidden">
+      <DataStreamVisualizer />
       <BackgroundEffects />
       <AudioController />
+      <AIAssistant />
       <Navigation />
       <HeroSection />
       <AboutSection />

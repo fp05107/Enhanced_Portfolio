@@ -38,9 +38,12 @@ export function ContactSection() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-6xl font-bold mb-4">
-            <span className="text-neon-magenta animate-glow">Get In</span> Touch
+            <span className="text-neon-magenta animate-glow">Connect</span> API
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-neon-magenta to-neon-cyan mx-auto" />
+          <div className="w-24 h-1 bg-gradient-to-r from-neon-magenta to-neon-cyan mx-auto mb-4" />
+          <p className="text-gray-300 max-w-2xl mx-auto">
+            Ready to collaborate on cutting-edge AI/ML projects? Let's build the future of intelligent applications together
+          </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
