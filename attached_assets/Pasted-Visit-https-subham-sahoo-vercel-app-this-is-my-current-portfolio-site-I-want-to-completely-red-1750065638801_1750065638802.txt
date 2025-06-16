@@ -1,0 +1,61 @@
+Visit https://subham-sahoo.vercel.app — this is my current portfolio site.
+
+I want to completely redesign it into something futuristic, highly creative, and visually immersive. The website should feature:
+
+🎯 Key Objectives:
+Reflect my expertise as a Full Stack Engineer with a focus on React Native, Next.js, Node.js, Firebase, and more.
+
+Convey innovation, uniqueness, and technical mastery.
+
+Include 3D animations, interactive elements, and ambient audio to enhance the user experience.
+
+🔧 Features to Include:
+Dynamic, extensible Projects Section – showcase with filters, 3D cards, or scroll animations; ability to easily add more.
+
+A clean but animated About Me section with timeline (education + work experience).
+
+Use futuristic typography, dark theme with neon/glassmorphism, and creative hover effects.
+
+Add audio feedback/soundtrack to interactions (with toggle to disable).
+
+Hero section with animated 3D model or avatar, possibly reflecting my work (e.g., coding, cloud icons, etc.).
+
+Resume viewer/download and interactive skill cloud.
+
+🧠 Content Highlights:
+Summary: "Results-oriented software engineer focused on optimized solutions and high-quality code. Seeking a challenging SDE role to apply technical expertise and contribute to engineering excellence."
+
+Education: BCA, Amity University (Specialization in Cloud & Security) | May 2023 – Apr 2026
+
+Work: Full Stack Engineer @ Poulima Infotech | Nov 2023 – Present
+
+Key achievements:
+
+Secure OTP + JWT auth
+
+Real-time data sync, offline support
+
+Firebase push notifications, real-time updates
+
+CCAvenue integration
+
+Sentry, UXCam, Lighthouse optimization
+
+Multi-language support
+
+Skills: React Native, React.js, Next.js, Node.js, Firebase, MongoDB, AWS, Sentry, Google Analytics, UXCam
+
+Languages: English, Odia, Hindi, Bengali
+
+Certifications: Advanced JavaScript, Full Stack Development
+
+Hobbies: Cricket, Astrology
+
+🔮 Design Direction:
+Think Apple Vision Pro, Tron Legacy, or Cyberpunk 2077 vibes.
+
+Blend glassmorphism, 3D parallax scrolling, and micro-interactions.
+
+Responsive and performant on all devices.
+
+Make it a portfolio that truly stands out from the crowd and demonstrates both my personality and engineering capabilities.
