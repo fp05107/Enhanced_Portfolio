@@ -81,7 +81,7 @@
   }
 
   .grid-bg {
-    background-image: 
+    background-image:
       linear-gradient(hsla(var(--neon-cyan), 0.1) 1px, transparent 1px),
       linear-gradient(90deg, hsla(var(--neon-cyan), 0.1) 1px, transparent 1px);
     background-size: 50px 50px;
@@ -224,41 +224,89 @@
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 @keyframes glow {
-  from { text-shadow: 0 0 20px hsl(var(--neon-cyan)), 0 0 30px hsl(var(--neon-cyan)), 0 0 40px hsl(var(--neon-cyan)); }
-  to { text-shadow: 0 0 10px hsl(var(--neon-cyan)), 0 0 20px hsl(var(--neon-cyan)), 0 0 30px hsl(var(--neon-cyan)); }
+  from {
+    text-shadow: 0 0 20px hsl(var(--neon-cyan)), 0 0 30px hsl(var(--neon-cyan)), 0 0 40px hsl(var(--neon-cyan));
+  }
+
+  to {
+    text-shadow: 0 0 10px hsl(var(--neon-cyan)), 0 0 20px hsl(var(--neon-cyan)), 0 0 30px hsl(var(--neon-cyan));
+  }
 }
 
 @keyframes slideUp {
-  from { opacity: 0; transform: translateY(50px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes pulseNeon {
-  0%, 100% { box-shadow: 0 0 20px hsla(var(--neon-cyan), 0.5), inset 0 0 20px hsla(var(--neon-cyan), 0.1); }
-  50% { box-shadow: 0 0 40px hsla(var(--neon-cyan), 0.8), inset 0 0 30px hsla(var(--neon-cyan), 0.2); }
+
+  0%,
+  100% {
+    box-shadow: 0 0 20px hsla(var(--neon-cyan), 0.5), inset 0 0 20px hsla(var(--neon-cyan), 0.1);
+  }
+
+  50% {
+    box-shadow: 0 0 40px hsla(var(--neon-cyan), 0.8), inset 0 0 30px hsla(var(--neon-cyan), 0.2);
+  }
 }
 
 @keyframes scan {
-  0% { left: -100%; }
-  100% { left: 100%; }
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 100%;
+  }
 }
 
 @keyframes audioWave {
-  0%, 100% { height: 10px; }
-  50% { height: 30px; }
+
+  0%,
+  100% {
+    height: 10px;
+  }
+
+  50% {
+    height: 30px;
+  }
 }
 
 @keyframes rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }

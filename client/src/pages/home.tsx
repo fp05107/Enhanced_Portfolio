@@ -15,7 +15,8 @@ export default function Home() {
   useScrollAnimation();
 
   return (
-    <div className="bg-dark-bg text-white font-inter overflow-x-hidden">
+    // <div className="bg-dark-bg text-white font-inter overflow-x-hidden">
+      <div style={{ backgroundColor: 'black' }} >
       <DataStreamVisualizer />
       <BackgroundEffects />
       <AudioController />

@@ -18,14 +18,14 @@ function Router() {
 
 function App() {
   useCursorTrail();
-  
+
   return (
     <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <div className="cursor-trail" id="cursor-trail" />
-        <Toaster />
-        <Router />
-      </TooltipProvider>
+        <TooltipProvider>
+          <div className="cursor-trail" id="cursor-trail" />
+          <Toaster />
+          <Router />
+        </TooltipProvider>
     </QueryClientProvider>
   );
 }
